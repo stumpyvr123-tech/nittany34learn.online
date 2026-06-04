@@ -24,7 +24,31 @@
 
 <h1>
   Now, let's learn more about TAGS!
+
 </h1>
+
+<h2> With a tag for example the H2 tag: when you want to style it (we will learn that later) you can set 
+  a class. For example, &lt;h2 class="class1"&gt;This is a heading&lt;/h2&gt; will create a heading with the class "heading". You can then use CSS to style all elements with the class "heading".
+</h2>
+
+<h3> Target them like this STYLE> .class1 {
+ color: red;
+ background-color: blue;
+ font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  width: 25px;
+  height: 67px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+} 
+
+/STYLE>
+</h3>
+
+<h2> (The code may look weird with the heading, but it's correct!)</h2>
 
 <style> 
   body {
@@ -38,3 +62,27 @@
 
 
   </style>
+
+
+<a href="htmlcourse5.html" class="html-next">Next </a>
+<a href="index.html" class="html-back">Back</a>
+
+<style>
+  .html-back {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    height: 54px;
+    width: 65px;
+    cursor: pointer;
+    font-family: Arial;
+  }
+
+  .html-back:hover {
+ background-color: white;
+  color: black;
+  opacity: 0.7;
+  }
+</style>
